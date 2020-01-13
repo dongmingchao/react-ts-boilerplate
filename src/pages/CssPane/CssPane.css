@@ -1,0 +1,28 @@
+.header {
+  color: red;
+}
+
+.header-with-componse {
+  composes: header;
+  background: blue;
+}
+
+.header-with-import {
+  composes: a-import-header from './beImport.css';
+  composes: header;
+}
+
+.test-new {
+  color: #1fd;
+}
+
+@value v-primary: #147a0b;
+@value s-header: header-use-var;
+
+.s-header {
+  color: v-primary;
+}
+
+.nest {
+  color: #4ca
+}

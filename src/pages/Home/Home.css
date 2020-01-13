@@ -1,0 +1,16 @@
+.title {
+  background-color: #acd;
+}
+
+.header {
+  color: red
+}
+
+.compose-header {
+  composes: header;
+  background: blue;
+}
+
+.dddcc {
+  background-color: #eec;
+}
