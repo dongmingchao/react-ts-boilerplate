@@ -4,5 +4,5 @@ interface CssExports {
   'header-use-less': string;
   'nest': string;
 }
-declare var cssExports: CssExports;
-export = cssExports;
+export const cssExports: CssExports;
+export default cssExports;

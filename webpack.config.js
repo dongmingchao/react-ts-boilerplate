@@ -15,7 +15,6 @@ const webpack = require('webpack');
  */
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CheckerPlugin } = require('awesome-typescript-loader');
 /*
  * We've enabled HtmlWebpackPlugin for you! This generates a html
  * page for you when you compile webpack, which will make you start
@@ -37,10 +36,7 @@ module.exports = {
 
   plugins: [
     new webpack.ProgressPlugin(),
-    new CheckerPlugin(),
     new HtmlWebpackPlugin({
-      // 用哪个html作为模板
-      // 在src目录下创建一个index.html页面当做模板来用
       template: './index.html',
       inject: true,
       hash: false,
@@ -96,30 +92,30 @@ module.exports = {
         include: [path.resolve(__dirname, 'src')],
         exclude: [/node_modules/]
       },
-      {
-        test: /\.js$/,
-        use: 'babel-loader',
-        include: /src/, // 只转化src目录下的js
-        exclude: /node_modules/ // 排除掉node_modules，优化打包速度
-      },
+      // {
+      //   test: /\.js$/,
+      //   use: 'babel-loader',
+      //   include: /src/, // 只转化src目录下的js
+      //   exclude: /node_modules/ // 排除掉node_modules，优化打包速度
+      // },
     ]
   },
 
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        vendors: {
-          priority: -10,
-          test: /[\\/]node_modules[\\/]/
-        }
-      },
+  // optimization: {
+  //   splitChunks: {
+  //     cacheGroups: {
+  //       vendors: {
+  //         priority: -10,
+  //         test: /[\\/]node_modules[\\/]/
+  //       }
+  //     },
 
-      chunks: 'async',
-      minChunks: 1,
-      minSize: 30000,
-      name: true
-    }
-  },
+  //     chunks: 'async',
+  //     minChunks: 1,
+  //     minSize: 30000,
+  //     name: true
+  //   }
+  // },
 
   devServer: {
     open: true,
