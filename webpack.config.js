@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -26,7 +27,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: ['react-hot-loader/patch', './src/index.ts'],
+  entry: ['react-hot-loader/patch', './src/main.ts'],
 
   output: {
     filename: 'bundle.js',
@@ -36,16 +37,29 @@ module.exports = {
 
   plugins: [
     new webpack.ProgressPlugin(),
+    new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
       template: './index.html',
+      filename: 'index.html',
       inject: true,
       hash: false,
-      minify: {
-        removeComments: true,
-        collapseWhitespace: true,
-        removeAttributeQuotes: true
-      }
-    })
+      // minify: {
+      //   removeComments: true,
+      //   collapseWhitespace: true,
+      //   removeAttributeQuotes: true
+      // }
+    }),
+    new HtmlWebpackPlugin({
+      template: './vue.html',
+      filename: 'vue.html',
+      inject: true,
+      hash: false,
+      // minify: {
+      //   removeComments: true,
+      //   collapseWhitespace: true,
+      //   removeAttributeQuotes: true
+      // }
+    }),
   ],
 
   module: {
@@ -92,6 +106,14 @@ module.exports = {
         include: [path.resolve(__dirname, 'src')],
         exclude: [/node_modules/]
       },
+      {
+				test: /\.vue$/,
+				loader: 'vue-loader',
+				options: {
+					loaders: {}
+					// other vue-loader options go here
+				}
+			},
       // {
       //   test: /\.js$/,
       //   use: 'babel-loader',
@@ -122,7 +144,6 @@ module.exports = {
     // lazy: true,
     overlay: true,
     inline: true,
-    historyApiFallback: true
   },
 
   resolve: {

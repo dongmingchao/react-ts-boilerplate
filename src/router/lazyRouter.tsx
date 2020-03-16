@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Header from "../components/Header";
 const Home = lazy(() => import("../pages/Home/Home"));
 const CssPane = lazy(() => import("../pages/CssPane/CssPane"));

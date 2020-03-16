@@ -1,4 +1,4 @@
-import React, { ReactNode, useState, ReactElement } from "react";
+import React, { ReactNode, ReactElement } from "react";
 
 export interface notebookProps {
   title?: string;
@@ -15,8 +15,8 @@ const NoteBook: React.FC<notebookProps> = () => {
     const each = arr[index];
     listItems.push(<li key={index}>{each}</li>);
   }
-  const sList = useState(listItems);
-  const sCount = useState(0);
+  const sList = React.useState(listItems);
+  const sCount = React.useState(0);
   const [list] = sList;
   const [count] = sCount;
 
