@@ -68,12 +68,12 @@ module.exports = {
         test: /\.css$/,
         use: [
           'style-loader',
-          'css-modules-typescript-loader',
+          // 'css-modules-typescript-loader',
           {
             loader: 'css-loader',
-            options: {
-              modules: true
-            }
+            // options: {
+            //   modules: true
+            // }
           }
         ],
         exclude: /node_modules/
@@ -90,12 +90,12 @@ module.exports = {
         test: /\.less$/,
         use: [
           'style-loader',
-          'css-modules-typescript-loader',
+          // 'css-modules-typescript-loader',
           {
             loader: 'css-loader',
-            options: {
-              modules: true
-            }
+            // options: {
+            //   modules: true
+            // }
           },
           'less-loader'
         ]

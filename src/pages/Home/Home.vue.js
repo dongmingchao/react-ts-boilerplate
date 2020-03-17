@@ -1,12 +1,14 @@
 import Home from './Home';
 import React from 'react';
-import { render } from 'react-dom';
-import Vue from 'vue/dist/vue.esm.js';
+import ReactDom from 'react-dom';
 
-export default Vue.extend({
-  template: '<div ref="main"></div>',
-  name: 'Home',
-  mounted() {
-    render(React.createElement(Home, null, null), this.$refs.main);
+export default {
+  render(createElement) {
+    return createElement('div', {
+      ref: 'main',
+    });
   },
-});
+  mounted() {
+    ReactDom.render(React.createElement(Home, null, null), this.$refs.main);
+  },
+};

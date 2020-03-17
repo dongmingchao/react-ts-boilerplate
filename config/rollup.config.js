@@ -1,45 +1,38 @@
 import typescript from '@rollup/plugin-typescript';
 import commonjs from '@rollup/plugin-commonjs';
 // import resolve from '@rollup/plugin-node-resolve';
-// import rollup_postcss from 'rollup-plugin-postcss';
+import rollup_postcss from 'rollup-plugin-postcss';
 // import postcssSplit from 'postcss-split-module';
 // import VuePlugin from 'rollup-plugin-vue';
 // import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import generatePackageJson from 'rollup-plugin-generate-package-json';
-import ignoreImport from 'rollup-plugin-ignore-import';
+// import ignoreImport from 'rollup-plugin-ignore-import';
 
-const vueExport = {
-  input: 'config/vue.js',
+const vueExport = (name) => ({
+  input: `src/pages/${name}/${name}.vue.js`,
   output: {
-    file: 'dist/vue/index.js',
+    file: `dist/vue/${name}/${name}.js`,
     format: 'es',
     exports: 'named',
     sourcemap: true,
   },
-  external: ['react', 'react-dom', 'vue'],
+  external: ['react', 'react-dom', 'vue/dist/vue.esm'],
   plugins: [
-    ignoreImport({
-      extensions: ['.less', '.css'],
-    }),
+    // ignoreImport({
+    //   extensions: ['.less', '.css'],
+    // }),
     typescript({module: "esnext"}),
-    // peerDepsExternal(),
-    // resolve(),
+    rollup_postcss({
+      extract: `dist/vue/${name}/${name}.css`,
+    }),
     commonjs({
       namedExports: {
         'react-dom': [ 'render' ]
       }
     }),
-    generatePackageJson({
-      outputFolder: 'dist',
-      baseContents: (pkg) => ({
-        name: pkg.name,
-        version: pkg.version,
-        private: true,
-      }),
-    }),
     // VuePlugin(),
   ],
-};
+});
 
 const reactExport = {
   input: 'config/react.ts',
@@ -54,12 +47,6 @@ const reactExport = {
     typescript({module: "esnext"}),
     // peerDepsExternal(),
     rollup_postcss({
-      // plugins: [
-      //   postcssSplit({
-      //     outputDir: 'dist'
-      //   }),
-      // ],
-      // modules: true,
       extract: 'dist/style.css',
     }),
     // resolve(),
@@ -68,15 +55,18 @@ const reactExport = {
         'react-dom': [ 'render' ]
       }
     }),
-    // generatePackageJson({
-    //   outputFolder: 'dist',
-    //   baseContents: (pkg) => ({
-    //     name: pkg.name,
-    //     version: pkg.version,
-    //     private: true,
-    //   }),
-    // }),
+    generatePackageJson({
+      outputFolder: 'dist',
+      baseContents: (pkg) => ({
+        name: pkg.name,
+        version: pkg.version,
+        private: true,
+      }),
+      additionalDependencies: {
+        "react-dom": "^16.13.0",
+      }
+    }),
   ],
 };
 
-export default [reactExport, vueExport];
+export default ['Home'].map(vueExport).concat(reactExport);

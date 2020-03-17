@@ -2,12 +2,15 @@
   background-color: #acd;
 }
 
-.home-header {
+.header {
   color: red;
 }
 
+.home-header {
+  color: green;
+}
+
 .compose-header {
-  composes: header;
   background: blue;
 }
 

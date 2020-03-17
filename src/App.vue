@@ -6,11 +6,10 @@
 
 <script>
 import Home from './pages/Home/Home.vue';
-import Vue from 'vue';
 
 export default {
   name: 'App',
-  components: {Home}
+  components: { Home }
 }
 </script>
 
