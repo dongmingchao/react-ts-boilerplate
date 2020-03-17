@@ -1,7 +1,7 @@
 import React from 'react';
 import NoteBook from "../../components/notebook";
 import { Link } from 'react-router-dom';
-import css from './Home.css'
+import css from './Home.css';
 
 export interface HelloProps {
   compiler: string;
