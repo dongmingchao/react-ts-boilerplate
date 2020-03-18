@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/dongmingchao/react-ts-boilerplate/compare/v0.0.3...v0.0.4) (2020-03-18)
+
+
+### Features
+
+* export vue render ([2d39cfd](https://github.com/dongmingchao/react-ts-boilerplate/commit/2d39cfdd684754bb70ca53fef2e8b46de4cd1fd0))
+
 ### 0.0.3 (2020-03-17)
 
 
