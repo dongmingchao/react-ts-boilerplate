@@ -6,7 +6,6 @@ import rollup_postcss from 'rollup-plugin-postcss';
 // import VuePlugin from 'rollup-plugin-vue';
 // import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import generatePackageJson from 'rollup-plugin-generate-package-json';
-// import ignoreImport from 'rollup-plugin-ignore-import';
 
 const vueExport = (name) => ({
   input: `src/pages/${name}/${name}.vue.js`,
@@ -16,11 +15,8 @@ const vueExport = (name) => ({
     exports: 'named',
     sourcemap: true,
   },
-  external: ['react', 'react-dom', 'vue/dist/vue.esm'],
+  external: id => id.startsWith('react') || id.startsWith('react-dom') || id.startsWith('antd'),
   plugins: [
-    // ignoreImport({
-    //   extensions: ['.less', '.css'],
-    // }),
     typescript({module: "esnext"}),
     rollup_postcss({
       extract: `dist/vue/${name}/${name}.css`,
@@ -64,6 +60,7 @@ const reactExport = {
       }),
       additionalDependencies: {
         "react-dom": "^16.13.0",
+        "antd": "^4.0.3",
       }
     }),
   ],
