@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const fs = require('fs');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -122,7 +123,15 @@ module.exports = {
     // lazy: true,
     overlay: true,
     inline: true,
-    historyApiFallback: true
+    historyApiFallback: true,
+    before: function(app, server, compiler) {
+      app.get('/api', function(req, res) {
+        // console.log(req);
+        const inputFilename = path.resolve(path.join(__dirname, 'src', 'components', 'CheckboxGroup', 'properties.ts'));
+        const inputBuffer = fs.readFileSync(inputFilename).toString();
+        res.end(inputBuffer);
+      });
+    },
   },
 
   resolve: {
