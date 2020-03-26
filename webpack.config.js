@@ -1,7 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const fs = require('fs');
-const { handle } = require('./lib/Props/dist/core');
+const { handle } = require('tsdoc2json');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced

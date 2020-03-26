@@ -16,7 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/lodash": "^4.14.149",
-    "@types/react": "^16.8.23",
+    "@types/react": "^16.9.25",
     "@types/react-dom": "^16.8.5",
     "@types/react-router-dom": "^5.1.3",
     "css-loader": "^3.2.0",
@@ -25,9 +25,10 @@
     "less": "^3.10.2",
     "less-loader": "^5.0.0",
     "style-loader": "^1.1.3",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^6.2.2",
+    "tsdoc2json": "https://github.com/dongmingchao/tsdoc2json",
     "typescript": "^3.8.3",
-    "webpack": "^4.42.0",
+    "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
@@ -36,8 +37,8 @@
     "@microsoft/tsdoc": "^0.12.17",
     "antd": "^4.0.4",
     "lodash": "^4.17.15",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
     "react-router-dom": "^5.1.2"
   }
