@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, ReactNode } from 'react';
-import { PropAnalzye } from './core';
+import { PropAnalzye } from '../../../lib/Props/core';
 
 function Stories() {
   const [doms, setDoms] = useState<ReactNode>();
