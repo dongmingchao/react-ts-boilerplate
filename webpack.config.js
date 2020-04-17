@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const PnpWebpackPlugin = require('pnp-webpack-plugin');
 
 /*
  * SplitChunksPlugin is enabled by default and replaced
@@ -89,6 +90,7 @@ module.exports = {
       {
         test: /\.(ts|tsx)?$/,
         loader: 'ts-loader',
+        options: PnpWebpackPlugin.tsLoaderOptions(),
         include: [path.resolve(__dirname, 'src')],
         exclude: [/node_modules/]
       },
