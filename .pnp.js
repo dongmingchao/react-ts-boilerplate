@@ -165,14 +165,6 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["rambda", new Map([
-    ["5.1.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-rambda-5.1.0-bb8d37f4ad48eb420edf937f21beb18a18f65b2a-integrity/node_modules/rambda/"),
-      packageDependencies: new Map([
-        ["rambda", "5.1.0"],
-      ]),
-    }],
-  ])],
   ["react", new Map([
     ["16.13.1", {
       packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-react-16.13.1-2e818822f1a9743122c063d6410d85c1e3afe48e-integrity/node_modules/react/"),
@@ -6176,7 +6168,6 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["@hot-loader/react-dom", "16.13.0"],
         ["lodash", "4.17.15"],
-        ["rambda", "5.1.0"],
         ["react", "16.13.1"],
         ["react-dom", "16.13.1"],
         ["react-hot-loader", "4.12.20"],
@@ -6214,7 +6205,6 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-react-is-16.13.1-789729a4dc36de2999dc156dd6c1d9c18cea56a4-integrity/node_modules/react-is/", {"name":"react-is","reference":"16.13.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-scheduler-0.19.1-4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196-integrity/node_modules/scheduler/", {"name":"scheduler","reference":"0.19.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-lodash-4.17.15-b447f6670a0455bbfeedd11392eff330ea097548-integrity/node_modules/lodash/", {"name":"lodash","reference":"4.17.15"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-rambda-5.1.0-bb8d37f4ad48eb420edf937f21beb18a18f65b2a-integrity/node_modules/rambda/", {"name":"rambda","reference":"5.1.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-react-16.13.1-2e818822f1a9743122c063d6410d85c1e3afe48e-integrity/node_modules/react/", {"name":"react","reference":"16.13.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-react-dom-16.13.1-c1bd37331a0486c078ee54c4740720993b2e0e7f-integrity/node_modules/react-dom/", {"name":"react-dom","reference":"16.13.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-react-hot-loader-4.12.20-c2c42362a7578e5c30357a5ff7afa680aa0bef8a-integrity/node_modules/react-hot-loader/", {"name":"react-hot-loader","reference":"4.12.20"}],

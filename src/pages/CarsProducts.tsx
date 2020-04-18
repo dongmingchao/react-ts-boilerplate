@@ -1,5 +1,5 @@
 import React, { useState, ReactElement } from "react";
-import * as _ from 'rambda';
+import _ from 'lodash/fp';
 
 class Car {
   name: string
@@ -69,17 +69,17 @@ export default function CarsProducts() {
   );
 }
 
-const trace = _.curry(function(...a) {
-  console.log(a);
-  return a;
-});
+// const trace = _.curry(function(...a) {
+//   console.log(a);
+//   return a;
+// });
 
-const isLastInStock = _.compose<Car[], Car, string>(
+const isLastInStock = _.compose(
   _.pathOr('', 'in_stock'),
   _.last,
 )
 
-const firstCarName = _.compose<Car[], Car, string>(
+const firstCarName = _.compose(
   _.pathOr('', 'name'),
   _.head,
 )
