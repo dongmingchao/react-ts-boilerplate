@@ -1,5 +1,5 @@
 import React, { useState, ReactElement } from "react";
-import _ from "lodash/fp";
+import * as _ from 'rambda';
 
 class Car {
   name: string
@@ -74,14 +74,14 @@ const trace = _.curry(function(...a) {
   return a;
 });
 
-const isLastInStock = _.compose(
-  _.prop('in_stock'),
-  _.last
+const isLastInStock = _.compose<Car[], Car, string>(
+  _.pathOr('', 'in_stock'),
+  _.last,
 )
 
-const firstCarName = _.compose(
-  _.prop('name'),
-  _.first
+const firstCarName = _.compose<Car[], Car, string>(
+  _.pathOr('', 'name'),
+  _.head,
 )
 
 const _average = (xs: any[]) => {
@@ -90,5 +90,5 @@ const _average = (xs: any[]) => {
 
 const averageDollarValue = _.compose(
   _average,
-  _.map('dollar_value'),
+  _.map(_.path('dollar_value')),
 )
