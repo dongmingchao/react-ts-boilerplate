@@ -519,6 +519,14 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
+  ["@types/lodash", new Map([
+    ["4.14.149", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-lodash-4.14.149-1342d63d948c6062838fbf961012f74d4e638440-integrity/node_modules/@types/lodash/"),
+      packageDependencies: new Map([
+        ["@types/lodash", "4.14.149"],
+      ]),
+    }],
+  ])],
   ["@types/react", new Map([
     ["16.9.34", {
       packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-react-16.9.34-f7d5e331c468f53affed17a8a4d488cd44ea9349-integrity/node_modules/@types/react/"),
@@ -583,6 +591,277 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
+  ["@yarnpkg/pnpify", new Map([
+    ["2.0.0-rc.20", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-pnpify-2.0.0-rc.20-4e03b226288dd09026535919eb41d68e6693012c-integrity/node_modules/@yarnpkg/pnpify/"),
+      packageDependencies: new Map([
+        ["typescript", "3.8.3"],
+        ["@yarnpkg/fslib", "2.0.0-rc.17"],
+        ["chalk", "3.0.0"],
+        ["comment-json", "2.4.2"],
+        ["cross-spawn", "6.0.5"],
+        ["@yarnpkg/pnpify", "2.0.0-rc.20"],
+      ]),
+    }],
+  ])],
+  ["@yarnpkg/fslib", new Map([
+    ["2.0.0-rc.17", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-fslib-2.0.0-rc.17-480b73808d284bdd39054dad77814e1a60daaad3-integrity/node_modules/@yarnpkg/fslib/"),
+      packageDependencies: new Map([
+        ["@yarnpkg/libzip", "2.0.0-rc.10"],
+        ["@yarnpkg/fslib", "2.0.0-rc.17"],
+      ]),
+    }],
+  ])],
+  ["@yarnpkg/libzip", new Map([
+    ["2.0.0-rc.10", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-libzip-2.0.0-rc.10-425926ff5d03b79b74dc3010bbd402444cbabf6a-integrity/node_modules/@yarnpkg/libzip/"),
+      packageDependencies: new Map([
+        ["@types/emscripten", "1.39.3"],
+        ["@yarnpkg/libzip", "2.0.0-rc.10"],
+      ]),
+    }],
+  ])],
+  ["@types/emscripten", new Map([
+    ["1.39.3", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-emscripten-1.39.3-cac2f24b4739c344c42f928a4c1af1aab245364e-integrity/node_modules/@types/emscripten/"),
+      packageDependencies: new Map([
+        ["@types/emscripten", "1.39.3"],
+      ]),
+    }],
+  ])],
+  ["chalk", new Map([
+    ["3.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-chalk-3.0.0-3f73c2bf526591f574cc492c51e2456349f844e4-integrity/node_modules/chalk/"),
+      packageDependencies: new Map([
+        ["ansi-styles", "4.2.1"],
+        ["supports-color", "7.1.0"],
+        ["chalk", "3.0.0"],
+      ]),
+    }],
+    ["2.4.2", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-chalk-2.4.2-cd42541677a54333cf541a49108c1432b44c9424-integrity/node_modules/chalk/"),
+      packageDependencies: new Map([
+        ["ansi-styles", "3.2.1"],
+        ["escape-string-regexp", "1.0.5"],
+        ["supports-color", "5.5.0"],
+        ["chalk", "2.4.2"],
+      ]),
+    }],
+  ])],
+  ["ansi-styles", new Map([
+    ["4.2.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-ansi-styles-4.2.1-90ae75c424d008d2624c5bf29ead3177ebfcf359-integrity/node_modules/ansi-styles/"),
+      packageDependencies: new Map([
+        ["@types/color-name", "1.1.1"],
+        ["color-convert", "2.0.1"],
+        ["ansi-styles", "4.2.1"],
+      ]),
+    }],
+    ["3.2.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity/node_modules/ansi-styles/"),
+      packageDependencies: new Map([
+        ["color-convert", "1.9.3"],
+        ["ansi-styles", "3.2.1"],
+      ]),
+    }],
+  ])],
+  ["@types/color-name", new Map([
+    ["1.1.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-color-name-1.1.1-1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0-integrity/node_modules/@types/color-name/"),
+      packageDependencies: new Map([
+        ["@types/color-name", "1.1.1"],
+      ]),
+    }],
+  ])],
+  ["color-convert", new Map([
+    ["2.0.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-convert-2.0.1-72d3a68d598c9bdb3af2ad1e84f21d896abd4de3-integrity/node_modules/color-convert/"),
+      packageDependencies: new Map([
+        ["color-name", "1.1.4"],
+        ["color-convert", "2.0.1"],
+      ]),
+    }],
+    ["1.9.3", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-convert-1.9.3-bb71850690e1f136567de629d2d5471deda4c1e8-integrity/node_modules/color-convert/"),
+      packageDependencies: new Map([
+        ["color-name", "1.1.3"],
+        ["color-convert", "1.9.3"],
+      ]),
+    }],
+  ])],
+  ["color-name", new Map([
+    ["1.1.4", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.4-c2a09a87acbde69543de6f63fa3995c826c536a2-integrity/node_modules/color-name/"),
+      packageDependencies: new Map([
+        ["color-name", "1.1.4"],
+      ]),
+    }],
+    ["1.1.3", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.3-a7d0558bd89c42f795dd42328f740831ca53bc25-integrity/node_modules/color-name/"),
+      packageDependencies: new Map([
+        ["color-name", "1.1.3"],
+      ]),
+    }],
+  ])],
+  ["supports-color", new Map([
+    ["7.1.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-supports-color-7.1.0-68e32591df73e25ad1c4b49108a2ec507962bfd1-integrity/node_modules/supports-color/"),
+      packageDependencies: new Map([
+        ["has-flag", "4.0.0"],
+        ["supports-color", "7.1.0"],
+      ]),
+    }],
+    ["5.5.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-supports-color-5.5.0-e2e69a44ac8772f78a1ec0b35b689df6530efc8f-integrity/node_modules/supports-color/"),
+      packageDependencies: new Map([
+        ["has-flag", "3.0.0"],
+        ["supports-color", "5.5.0"],
+      ]),
+    }],
+    ["6.1.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-supports-color-6.1.0-0764abc69c63d5ac842dd4867e8d025e880df8f3-integrity/node_modules/supports-color/"),
+      packageDependencies: new Map([
+        ["has-flag", "3.0.0"],
+        ["supports-color", "6.1.0"],
+      ]),
+    }],
+  ])],
+  ["has-flag", new Map([
+    ["4.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-has-flag-4.0.0-944771fd9c81c81265c4d6941860da06bb59479b-integrity/node_modules/has-flag/"),
+      packageDependencies: new Map([
+        ["has-flag", "4.0.0"],
+      ]),
+    }],
+    ["3.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-has-flag-3.0.0-b5d454dc2199ae225699f3467e5a07f3b955bafd-integrity/node_modules/has-flag/"),
+      packageDependencies: new Map([
+        ["has-flag", "3.0.0"],
+      ]),
+    }],
+  ])],
+  ["comment-json", new Map([
+    ["2.4.2", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-comment-json-2.4.2-2111c065864338ad8d98ae01eecde9e02cd2f549-integrity/node_modules/comment-json/"),
+      packageDependencies: new Map([
+        ["core-util-is", "1.0.2"],
+        ["esprima", "4.0.1"],
+        ["has-own-prop", "2.0.0"],
+        ["repeat-string", "1.6.1"],
+        ["comment-json", "2.4.2"],
+      ]),
+    }],
+  ])],
+  ["core-util-is", new Map([
+    ["1.0.2", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-core-util-is-1.0.2-b5fd54220aa2bc5ab57aab7140c940754503c1a7-integrity/node_modules/core-util-is/"),
+      packageDependencies: new Map([
+        ["core-util-is", "1.0.2"],
+      ]),
+    }],
+  ])],
+  ["esprima", new Map([
+    ["4.0.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-esprima-4.0.1-13b04cdb3e6c5d19df91ab6987a8695619b0aa71-integrity/node_modules/esprima/"),
+      packageDependencies: new Map([
+        ["esprima", "4.0.1"],
+      ]),
+    }],
+  ])],
+  ["has-own-prop", new Map([
+    ["2.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-has-own-prop-2.0.0-f0f95d58f65804f5d218db32563bb85b8e0417af-integrity/node_modules/has-own-prop/"),
+      packageDependencies: new Map([
+        ["has-own-prop", "2.0.0"],
+      ]),
+    }],
+  ])],
+  ["repeat-string", new Map([
+    ["1.6.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-repeat-string-1.6.1-8dcae470e1c88abc2d600fff4a776286da75e637-integrity/node_modules/repeat-string/"),
+      packageDependencies: new Map([
+        ["repeat-string", "1.6.1"],
+      ]),
+    }],
+  ])],
+  ["cross-spawn", new Map([
+    ["6.0.5", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-cross-spawn-6.0.5-4a5ec7c64dfae22c3a14124dbacdee846d80cbc4-integrity/node_modules/cross-spawn/"),
+      packageDependencies: new Map([
+        ["nice-try", "1.0.5"],
+        ["path-key", "2.0.1"],
+        ["semver", "5.7.1"],
+        ["shebang-command", "1.2.0"],
+        ["which", "1.3.1"],
+        ["cross-spawn", "6.0.5"],
+      ]),
+    }],
+  ])],
+  ["nice-try", new Map([
+    ["1.0.5", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-nice-try-1.0.5-a3378a7696ce7d223e88fc9b764bd7ef1089e366-integrity/node_modules/nice-try/"),
+      packageDependencies: new Map([
+        ["nice-try", "1.0.5"],
+      ]),
+    }],
+  ])],
+  ["path-key", new Map([
+    ["2.0.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-path-key-2.0.1-411cadb574c5a140d3a4b1910d40d80cc9f40b40-integrity/node_modules/path-key/"),
+      packageDependencies: new Map([
+        ["path-key", "2.0.1"],
+      ]),
+    }],
+  ])],
+  ["semver", new Map([
+    ["5.7.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-semver-5.7.1-a954f931aeba508d307bbf069eff0c01c96116f7-integrity/node_modules/semver/"),
+      packageDependencies: new Map([
+        ["semver", "5.7.1"],
+      ]),
+    }],
+    ["6.3.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-semver-6.3.0-ee0a64c8af5e8ceea67687b133761e1becbd1d3d-integrity/node_modules/semver/"),
+      packageDependencies: new Map([
+        ["semver", "6.3.0"],
+      ]),
+    }],
+  ])],
+  ["shebang-command", new Map([
+    ["1.2.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-shebang-command-1.2.0-44aac65b695b03398968c39f363fee5deafdf1ea-integrity/node_modules/shebang-command/"),
+      packageDependencies: new Map([
+        ["shebang-regex", "1.0.0"],
+        ["shebang-command", "1.2.0"],
+      ]),
+    }],
+  ])],
+  ["shebang-regex", new Map([
+    ["1.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-shebang-regex-1.0.0-da42f49740c0b42db2ca9728571cb190c98efea3-integrity/node_modules/shebang-regex/"),
+      packageDependencies: new Map([
+        ["shebang-regex", "1.0.0"],
+      ]),
+    }],
+  ])],
+  ["which", new Map([
+    ["1.3.1", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-which-1.3.1-a45043d54f5805316da8d62f9f50918d3da70b0a-integrity/node_modules/which/"),
+      packageDependencies: new Map([
+        ["isexe", "2.0.0"],
+        ["which", "1.3.1"],
+      ]),
+    }],
+  ])],
+  ["isexe", new Map([
+    ["2.0.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-isexe-2.0.0-e8fbf374dc556ff8947a10dcb0572d633f2cfa10-integrity/node_modules/isexe/"),
+      packageDependencies: new Map([
+        ["isexe", "2.0.0"],
+      ]),
+    }],
+  ])],
   ["css-loader", new Map([
     ["3.5.2", {
       packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-css-loader-3.5.2-6483ae56f48a7f901fbe07dde2fc96b01eafab3c-integrity/node_modules/css-loader/"),
@@ -641,114 +920,11 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["chalk", new Map([
-    ["2.4.2", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-chalk-2.4.2-cd42541677a54333cf541a49108c1432b44c9424-integrity/node_modules/chalk/"),
-      packageDependencies: new Map([
-        ["ansi-styles", "3.2.1"],
-        ["escape-string-regexp", "1.0.5"],
-        ["supports-color", "5.5.0"],
-        ["chalk", "2.4.2"],
-      ]),
-    }],
-    ["3.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-chalk-3.0.0-3f73c2bf526591f574cc492c51e2456349f844e4-integrity/node_modules/chalk/"),
-      packageDependencies: new Map([
-        ["ansi-styles", "4.2.1"],
-        ["supports-color", "7.1.0"],
-        ["chalk", "3.0.0"],
-      ]),
-    }],
-  ])],
-  ["ansi-styles", new Map([
-    ["3.2.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity/node_modules/ansi-styles/"),
-      packageDependencies: new Map([
-        ["color-convert", "1.9.3"],
-        ["ansi-styles", "3.2.1"],
-      ]),
-    }],
-    ["4.2.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-ansi-styles-4.2.1-90ae75c424d008d2624c5bf29ead3177ebfcf359-integrity/node_modules/ansi-styles/"),
-      packageDependencies: new Map([
-        ["@types/color-name", "1.1.1"],
-        ["color-convert", "2.0.1"],
-        ["ansi-styles", "4.2.1"],
-      ]),
-    }],
-  ])],
-  ["color-convert", new Map([
-    ["1.9.3", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-convert-1.9.3-bb71850690e1f136567de629d2d5471deda4c1e8-integrity/node_modules/color-convert/"),
-      packageDependencies: new Map([
-        ["color-name", "1.1.3"],
-        ["color-convert", "1.9.3"],
-      ]),
-    }],
-    ["2.0.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-convert-2.0.1-72d3a68d598c9bdb3af2ad1e84f21d896abd4de3-integrity/node_modules/color-convert/"),
-      packageDependencies: new Map([
-        ["color-name", "1.1.4"],
-        ["color-convert", "2.0.1"],
-      ]),
-    }],
-  ])],
-  ["color-name", new Map([
-    ["1.1.3", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.3-a7d0558bd89c42f795dd42328f740831ca53bc25-integrity/node_modules/color-name/"),
-      packageDependencies: new Map([
-        ["color-name", "1.1.3"],
-      ]),
-    }],
-    ["1.1.4", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.4-c2a09a87acbde69543de6f63fa3995c826c536a2-integrity/node_modules/color-name/"),
-      packageDependencies: new Map([
-        ["color-name", "1.1.4"],
-      ]),
-    }],
-  ])],
   ["escape-string-regexp", new Map([
     ["1.0.5", {
       packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-escape-string-regexp-1.0.5-1b61c0562190a8dff6ae3bb2cf0200ca130b86d4-integrity/node_modules/escape-string-regexp/"),
       packageDependencies: new Map([
         ["escape-string-regexp", "1.0.5"],
-      ]),
-    }],
-  ])],
-  ["supports-color", new Map([
-    ["5.5.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-supports-color-5.5.0-e2e69a44ac8772f78a1ec0b35b689df6530efc8f-integrity/node_modules/supports-color/"),
-      packageDependencies: new Map([
-        ["has-flag", "3.0.0"],
-        ["supports-color", "5.5.0"],
-      ]),
-    }],
-    ["6.1.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-supports-color-6.1.0-0764abc69c63d5ac842dd4867e8d025e880df8f3-integrity/node_modules/supports-color/"),
-      packageDependencies: new Map([
-        ["has-flag", "3.0.0"],
-        ["supports-color", "6.1.0"],
-      ]),
-    }],
-    ["7.1.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-supports-color-7.1.0-68e32591df73e25ad1c4b49108a2ec507962bfd1-integrity/node_modules/supports-color/"),
-      packageDependencies: new Map([
-        ["has-flag", "4.0.0"],
-        ["supports-color", "7.1.0"],
-      ]),
-    }],
-  ])],
-  ["has-flag", new Map([
-    ["3.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-has-flag-3.0.0-b5d454dc2199ae225699f3467e5a07f3b955bafd-integrity/node_modules/has-flag/"),
-      packageDependencies: new Map([
-        ["has-flag", "3.0.0"],
-      ]),
-    }],
-    ["4.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-has-flag-4.0.0-944771fd9c81c81265c4d6941860da06bb59479b-integrity/node_modules/has-flag/"),
-      packageDependencies: new Map([
-        ["has-flag", "4.0.0"],
       ]),
     }],
   ])],
@@ -934,20 +1110,6 @@ let packageInformationStores = new Map([
       packageDependencies: new Map([
         ["ajv", "6.12.0"],
         ["ajv-keywords", "pnp:98617499d4d50a8cd551a218fe8b73ef64f99afe"],
-      ]),
-    }],
-  ])],
-  ["semver", new Map([
-    ["6.3.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-semver-6.3.0-ee0a64c8af5e8ceea67687b133761e1becbd1d3d-integrity/node_modules/semver/"),
-      packageDependencies: new Map([
-        ["semver", "6.3.0"],
-      ]),
-    }],
-    ["5.7.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-semver-5.7.1-a954f931aeba508d307bbf069eff0c01c96116f7-integrity/node_modules/semver/"),
-      packageDependencies: new Map([
-        ["semver", "5.7.1"],
       ]),
     }],
   ])],
@@ -2002,14 +2164,6 @@ let packageInformationStores = new Map([
         ["core-util-is", "1.0.2"],
         ["extsprintf", "1.4.0"],
         ["verror", "1.10.0"],
-      ]),
-    }],
-  ])],
-  ["core-util-is", new Map([
-    ["1.0.2", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-core-util-is-1.0.2-b5fd54220aa2bc5ab57aab7140c940754503c1a7-integrity/node_modules/core-util-is/"),
-      packageDependencies: new Map([
-        ["core-util-is", "1.0.2"],
       ]),
     }],
   ])],
@@ -3352,69 +3506,6 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["cross-spawn", new Map([
-    ["6.0.5", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-cross-spawn-6.0.5-4a5ec7c64dfae22c3a14124dbacdee846d80cbc4-integrity/node_modules/cross-spawn/"),
-      packageDependencies: new Map([
-        ["nice-try", "1.0.5"],
-        ["path-key", "2.0.1"],
-        ["semver", "5.7.1"],
-        ["shebang-command", "1.2.0"],
-        ["which", "1.3.1"],
-        ["cross-spawn", "6.0.5"],
-      ]),
-    }],
-  ])],
-  ["nice-try", new Map([
-    ["1.0.5", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-nice-try-1.0.5-a3378a7696ce7d223e88fc9b764bd7ef1089e366-integrity/node_modules/nice-try/"),
-      packageDependencies: new Map([
-        ["nice-try", "1.0.5"],
-      ]),
-    }],
-  ])],
-  ["path-key", new Map([
-    ["2.0.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-path-key-2.0.1-411cadb574c5a140d3a4b1910d40d80cc9f40b40-integrity/node_modules/path-key/"),
-      packageDependencies: new Map([
-        ["path-key", "2.0.1"],
-      ]),
-    }],
-  ])],
-  ["shebang-command", new Map([
-    ["1.2.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-shebang-command-1.2.0-44aac65b695b03398968c39f363fee5deafdf1ea-integrity/node_modules/shebang-command/"),
-      packageDependencies: new Map([
-        ["shebang-regex", "1.0.0"],
-        ["shebang-command", "1.2.0"],
-      ]),
-    }],
-  ])],
-  ["shebang-regex", new Map([
-    ["1.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-shebang-regex-1.0.0-da42f49740c0b42db2ca9728571cb190c98efea3-integrity/node_modules/shebang-regex/"),
-      packageDependencies: new Map([
-        ["shebang-regex", "1.0.0"],
-      ]),
-    }],
-  ])],
-  ["which", new Map([
-    ["1.3.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-which-1.3.1-a45043d54f5805316da8d62f9f50918d3da70b0a-integrity/node_modules/which/"),
-      packageDependencies: new Map([
-        ["isexe", "2.0.0"],
-        ["which", "1.3.1"],
-      ]),
-    }],
-  ])],
-  ["isexe", new Map([
-    ["2.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-isexe-2.0.0-e8fbf374dc556ff8947a10dcb0572d633f2cfa10-integrity/node_modules/isexe/"),
-      packageDependencies: new Map([
-        ["isexe", "2.0.0"],
-      ]),
-    }],
-  ])],
   ["findup-sync", new Map([
     ["3.0.0", {
       packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-findup-sync-3.0.0-17b108f9ee512dfb7a5c7f3c8b27ea9e1a9c08d1-integrity/node_modules/findup-sync/"),
@@ -3548,14 +3639,6 @@ let packageInformationStores = new Map([
       packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-is-buffer-1.1.6-efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be-integrity/node_modules/is-buffer/"),
       packageDependencies: new Map([
         ["is-buffer", "1.1.6"],
-      ]),
-    }],
-  ])],
-  ["repeat-string", new Map([
-    ["1.6.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-repeat-string-1.6.1-8dcae470e1c88abc2d600fff4a776286da75e637-integrity/node_modules/repeat-string/"),
-      packageDependencies: new Map([
-        ["repeat-string", "1.6.1"],
       ]),
     }],
   ])],
@@ -6088,86 +6171,11 @@ let packageInformationStores = new Map([
       ]),
     }],
   ])],
-  ["@yarnpkg/pnpify", new Map([
-    ["2.0.0-rc.20", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-pnpify-2.0.0-rc.20-4e03b226288dd09026535919eb41d68e6693012c-integrity/node_modules/@yarnpkg/pnpify/"),
+  ["rambda", new Map([
+    ["5.1.0", {
+      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-rambda-5.1.0-bb8d37f4ad48eb420edf937f21beb18a18f65b2a-integrity/node_modules/rambda/"),
       packageDependencies: new Map([
-        ["typescript", "3.8.3"],
-        ["@yarnpkg/fslib", "2.0.0-rc.17"],
-        ["chalk", "3.0.0"],
-        ["comment-json", "2.4.2"],
-        ["cross-spawn", "6.0.5"],
-        ["@yarnpkg/pnpify", "2.0.0-rc.20"],
-      ]),
-    }],
-  ])],
-  ["@yarnpkg/fslib", new Map([
-    ["2.0.0-rc.17", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-fslib-2.0.0-rc.17-480b73808d284bdd39054dad77814e1a60daaad3-integrity/node_modules/@yarnpkg/fslib/"),
-      packageDependencies: new Map([
-        ["@yarnpkg/libzip", "2.0.0-rc.10"],
-        ["@yarnpkg/fslib", "2.0.0-rc.17"],
-      ]),
-    }],
-  ])],
-  ["@yarnpkg/libzip", new Map([
-    ["2.0.0-rc.10", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-libzip-2.0.0-rc.10-425926ff5d03b79b74dc3010bbd402444cbabf6a-integrity/node_modules/@yarnpkg/libzip/"),
-      packageDependencies: new Map([
-        ["@types/emscripten", "1.39.3"],
-        ["@yarnpkg/libzip", "2.0.0-rc.10"],
-      ]),
-    }],
-  ])],
-  ["@types/emscripten", new Map([
-    ["1.39.3", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-emscripten-1.39.3-cac2f24b4739c344c42f928a4c1af1aab245364e-integrity/node_modules/@types/emscripten/"),
-      packageDependencies: new Map([
-        ["@types/emscripten", "1.39.3"],
-      ]),
-    }],
-  ])],
-  ["@types/color-name", new Map([
-    ["1.1.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-color-name-1.1.1-1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0-integrity/node_modules/@types/color-name/"),
-      packageDependencies: new Map([
-        ["@types/color-name", "1.1.1"],
-      ]),
-    }],
-  ])],
-  ["comment-json", new Map([
-    ["2.4.2", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-comment-json-2.4.2-2111c065864338ad8d98ae01eecde9e02cd2f549-integrity/node_modules/comment-json/"),
-      packageDependencies: new Map([
-        ["core-util-is", "1.0.2"],
-        ["esprima", "4.0.1"],
-        ["has-own-prop", "2.0.0"],
-        ["repeat-string", "1.6.1"],
-        ["comment-json", "2.4.2"],
-      ]),
-    }],
-  ])],
-  ["esprima", new Map([
-    ["4.0.1", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-esprima-4.0.1-13b04cdb3e6c5d19df91ab6987a8695619b0aa71-integrity/node_modules/esprima/"),
-      packageDependencies: new Map([
-        ["esprima", "4.0.1"],
-      ]),
-    }],
-  ])],
-  ["has-own-prop", new Map([
-    ["2.0.0", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-has-own-prop-2.0.0-f0f95d58f65804f5d218db32563bb85b8e0417af-integrity/node_modules/has-own-prop/"),
-      packageDependencies: new Map([
-        ["has-own-prop", "2.0.0"],
-      ]),
-    }],
-  ])],
-  ["@types/lodash", new Map([
-    ["4.14.149", {
-      packageLocation: path.resolve(__dirname, "../../../../Library/Caches/Yarn/v6/npm-@types-lodash-4.14.149-1342d63d948c6062838fbf961012f74d4e638440-integrity/node_modules/@types/lodash/"),
-      packageDependencies: new Map([
-        ["@types/lodash", "4.14.149"],
+        ["rambda", "5.1.0"],
       ]),
     }],
   ])],
@@ -6181,9 +6189,11 @@ let packageInformationStores = new Map([
         ["react-dom", "16.13.1"],
         ["react-hot-loader", "4.12.20"],
         ["react-router-dom", "5.1.2"],
+        ["@types/lodash", "4.14.149"],
         ["@types/react", "16.9.34"],
         ["@types/react-dom", "16.9.6"],
         ["@types/react-router-dom", "5.1.4"],
+        ["@yarnpkg/pnpify", "2.0.0-rc.20"],
         ["css-loader", "3.5.2"],
         ["css-modules-typescript-loader", "4.0.0"],
         ["html-webpack-plugin", "4.2.0"],
@@ -6196,8 +6206,7 @@ let packageInformationStores = new Map([
         ["webpack", "5.0.0-beta.13"],
         ["webpack-cli", "3.3.11"],
         ["webpack-dev-server", "3.10.3"],
-        ["@yarnpkg/pnpify", "2.0.0-rc.20"],
-        ["@types/lodash", "4.14.149"],
+        ["rambda", "5.1.0"],
       ]),
     }],
   ])],
@@ -6252,6 +6261,7 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-path-to-regexp-0.1.7-df604178005f522f15eb4490e7247a1bfaa67f8c-integrity/node_modules/path-to-regexp/", {"name":"path-to-regexp","reference":"0.1.7"}],
   ["../../../../Library/Caches/Yarn/v6/npm-isarray-0.0.1-8a18acfca9a8f4177e09abfc6038939b05d1eedf-integrity/node_modules/isarray/", {"name":"isarray","reference":"0.0.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-isarray-1.0.0-bb935d48582cba168c06834957a54a3e07124f11-integrity/node_modules/isarray/", {"name":"isarray","reference":"1.0.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-@types-lodash-4.14.149-1342d63d948c6062838fbf961012f74d4e638440-integrity/node_modules/@types/lodash/", {"name":"@types/lodash","reference":"4.14.149"}],
   ["../../../../Library/Caches/Yarn/v6/npm-@types-react-16.9.34-f7d5e331c468f53affed17a8a4d488cd44ea9349-integrity/node_modules/@types/react/", {"name":"@types/react","reference":"16.9.34"}],
   ["../../../../Library/Caches/Yarn/v6/npm-@types-prop-types-15.7.3-2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7-integrity/node_modules/@types/prop-types/", {"name":"@types/prop-types","reference":"15.7.3"}],
   ["../../../../Library/Caches/Yarn/v6/npm-csstype-2.6.10-e63af50e66d7c266edb6b32909cfd0aabe03928b-integrity/node_modules/csstype/", {"name":"csstype","reference":"2.6.10"}],
@@ -6259,25 +6269,44 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-@types-react-router-dom-5.1.4-8d3e0306df74af301cc896309e7d4758f1a4bf71-integrity/node_modules/@types/react-router-dom/", {"name":"@types/react-router-dom","reference":"5.1.4"}],
   ["../../../../Library/Caches/Yarn/v6/npm-@types-history-4.7.5-527d20ef68571a4af02ed74350164e7a67544860-integrity/node_modules/@types/history/", {"name":"@types/history","reference":"4.7.5"}],
   ["../../../../Library/Caches/Yarn/v6/npm-@types-react-router-5.1.5-7b2f9b7cc3d350e92664c4e38c0ef529286fe628-integrity/node_modules/@types/react-router/", {"name":"@types/react-router","reference":"5.1.5"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-pnpify-2.0.0-rc.20-4e03b226288dd09026535919eb41d68e6693012c-integrity/node_modules/@yarnpkg/pnpify/", {"name":"@yarnpkg/pnpify","reference":"2.0.0-rc.20"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-fslib-2.0.0-rc.17-480b73808d284bdd39054dad77814e1a60daaad3-integrity/node_modules/@yarnpkg/fslib/", {"name":"@yarnpkg/fslib","reference":"2.0.0-rc.17"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-libzip-2.0.0-rc.10-425926ff5d03b79b74dc3010bbd402444cbabf6a-integrity/node_modules/@yarnpkg/libzip/", {"name":"@yarnpkg/libzip","reference":"2.0.0-rc.10"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-@types-emscripten-1.39.3-cac2f24b4739c344c42f928a4c1af1aab245364e-integrity/node_modules/@types/emscripten/", {"name":"@types/emscripten","reference":"1.39.3"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-chalk-3.0.0-3f73c2bf526591f574cc492c51e2456349f844e4-integrity/node_modules/chalk/", {"name":"chalk","reference":"3.0.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-chalk-2.4.2-cd42541677a54333cf541a49108c1432b44c9424-integrity/node_modules/chalk/", {"name":"chalk","reference":"2.4.2"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-ansi-styles-4.2.1-90ae75c424d008d2624c5bf29ead3177ebfcf359-integrity/node_modules/ansi-styles/", {"name":"ansi-styles","reference":"4.2.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity/node_modules/ansi-styles/", {"name":"ansi-styles","reference":"3.2.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-@types-color-name-1.1.1-1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0-integrity/node_modules/@types/color-name/", {"name":"@types/color-name","reference":"1.1.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-color-convert-2.0.1-72d3a68d598c9bdb3af2ad1e84f21d896abd4de3-integrity/node_modules/color-convert/", {"name":"color-convert","reference":"2.0.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-color-convert-1.9.3-bb71850690e1f136567de629d2d5471deda4c1e8-integrity/node_modules/color-convert/", {"name":"color-convert","reference":"1.9.3"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.4-c2a09a87acbde69543de6f63fa3995c826c536a2-integrity/node_modules/color-name/", {"name":"color-name","reference":"1.1.4"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.3-a7d0558bd89c42f795dd42328f740831ca53bc25-integrity/node_modules/color-name/", {"name":"color-name","reference":"1.1.3"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-supports-color-7.1.0-68e32591df73e25ad1c4b49108a2ec507962bfd1-integrity/node_modules/supports-color/", {"name":"supports-color","reference":"7.1.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-supports-color-5.5.0-e2e69a44ac8772f78a1ec0b35b689df6530efc8f-integrity/node_modules/supports-color/", {"name":"supports-color","reference":"5.5.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-supports-color-6.1.0-0764abc69c63d5ac842dd4867e8d025e880df8f3-integrity/node_modules/supports-color/", {"name":"supports-color","reference":"6.1.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-has-flag-4.0.0-944771fd9c81c81265c4d6941860da06bb59479b-integrity/node_modules/has-flag/", {"name":"has-flag","reference":"4.0.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-has-flag-3.0.0-b5d454dc2199ae225699f3467e5a07f3b955bafd-integrity/node_modules/has-flag/", {"name":"has-flag","reference":"3.0.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-comment-json-2.4.2-2111c065864338ad8d98ae01eecde9e02cd2f549-integrity/node_modules/comment-json/", {"name":"comment-json","reference":"2.4.2"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-core-util-is-1.0.2-b5fd54220aa2bc5ab57aab7140c940754503c1a7-integrity/node_modules/core-util-is/", {"name":"core-util-is","reference":"1.0.2"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-esprima-4.0.1-13b04cdb3e6c5d19df91ab6987a8695619b0aa71-integrity/node_modules/esprima/", {"name":"esprima","reference":"4.0.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-has-own-prop-2.0.0-f0f95d58f65804f5d218db32563bb85b8e0417af-integrity/node_modules/has-own-prop/", {"name":"has-own-prop","reference":"2.0.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-repeat-string-1.6.1-8dcae470e1c88abc2d600fff4a776286da75e637-integrity/node_modules/repeat-string/", {"name":"repeat-string","reference":"1.6.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-cross-spawn-6.0.5-4a5ec7c64dfae22c3a14124dbacdee846d80cbc4-integrity/node_modules/cross-spawn/", {"name":"cross-spawn","reference":"6.0.5"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-nice-try-1.0.5-a3378a7696ce7d223e88fc9b764bd7ef1089e366-integrity/node_modules/nice-try/", {"name":"nice-try","reference":"1.0.5"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-path-key-2.0.1-411cadb574c5a140d3a4b1910d40d80cc9f40b40-integrity/node_modules/path-key/", {"name":"path-key","reference":"2.0.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-semver-5.7.1-a954f931aeba508d307bbf069eff0c01c96116f7-integrity/node_modules/semver/", {"name":"semver","reference":"5.7.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-semver-6.3.0-ee0a64c8af5e8ceea67687b133761e1becbd1d3d-integrity/node_modules/semver/", {"name":"semver","reference":"6.3.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-shebang-command-1.2.0-44aac65b695b03398968c39f363fee5deafdf1ea-integrity/node_modules/shebang-command/", {"name":"shebang-command","reference":"1.2.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-shebang-regex-1.0.0-da42f49740c0b42db2ca9728571cb190c98efea3-integrity/node_modules/shebang-regex/", {"name":"shebang-regex","reference":"1.0.0"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-which-1.3.1-a45043d54f5805316da8d62f9f50918d3da70b0a-integrity/node_modules/which/", {"name":"which","reference":"1.3.1"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-isexe-2.0.0-e8fbf374dc556ff8947a10dcb0572d633f2cfa10-integrity/node_modules/isexe/", {"name":"isexe","reference":"2.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-css-loader-3.5.2-6483ae56f48a7f901fbe07dde2fc96b01eafab3c-integrity/node_modules/css-loader/", {"name":"css-loader","reference":"3.5.2"}],
   ["../../../../Library/Caches/Yarn/v6/npm-camelcase-5.3.1-e3c9b31569e106811df242f715725a1f4c494320-integrity/node_modules/camelcase/", {"name":"camelcase","reference":"5.3.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-cssesc-3.0.0-37741919903b868565e1c09ea747445cd18983ee-integrity/node_modules/cssesc/", {"name":"cssesc","reference":"3.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-icss-utils-4.1.1-21170b53789ee27447c2f47dd683081403f9a467-integrity/node_modules/icss-utils/", {"name":"icss-utils","reference":"4.1.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-postcss-7.0.27-cc67cdc6b0daa375105b7c424a85567345fc54d9-integrity/node_modules/postcss/", {"name":"postcss","reference":"7.0.27"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-chalk-2.4.2-cd42541677a54333cf541a49108c1432b44c9424-integrity/node_modules/chalk/", {"name":"chalk","reference":"2.4.2"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-chalk-3.0.0-3f73c2bf526591f574cc492c51e2456349f844e4-integrity/node_modules/chalk/", {"name":"chalk","reference":"3.0.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-ansi-styles-3.2.1-41fbb20243e50b12be0f04b8dedbf07520ce841d-integrity/node_modules/ansi-styles/", {"name":"ansi-styles","reference":"3.2.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-ansi-styles-4.2.1-90ae75c424d008d2624c5bf29ead3177ebfcf359-integrity/node_modules/ansi-styles/", {"name":"ansi-styles","reference":"4.2.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-color-convert-1.9.3-bb71850690e1f136567de629d2d5471deda4c1e8-integrity/node_modules/color-convert/", {"name":"color-convert","reference":"1.9.3"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-color-convert-2.0.1-72d3a68d598c9bdb3af2ad1e84f21d896abd4de3-integrity/node_modules/color-convert/", {"name":"color-convert","reference":"2.0.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.3-a7d0558bd89c42f795dd42328f740831ca53bc25-integrity/node_modules/color-name/", {"name":"color-name","reference":"1.1.3"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-color-name-1.1.4-c2a09a87acbde69543de6f63fa3995c826c536a2-integrity/node_modules/color-name/", {"name":"color-name","reference":"1.1.4"}],
   ["../../../../Library/Caches/Yarn/v6/npm-escape-string-regexp-1.0.5-1b61c0562190a8dff6ae3bb2cf0200ca130b86d4-integrity/node_modules/escape-string-regexp/", {"name":"escape-string-regexp","reference":"1.0.5"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-supports-color-5.5.0-e2e69a44ac8772f78a1ec0b35b689df6530efc8f-integrity/node_modules/supports-color/", {"name":"supports-color","reference":"5.5.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-supports-color-6.1.0-0764abc69c63d5ac842dd4867e8d025e880df8f3-integrity/node_modules/supports-color/", {"name":"supports-color","reference":"6.1.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-supports-color-7.1.0-68e32591df73e25ad1c4b49108a2ec507962bfd1-integrity/node_modules/supports-color/", {"name":"supports-color","reference":"7.1.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-has-flag-3.0.0-b5d454dc2199ae225699f3467e5a07f3b955bafd-integrity/node_modules/has-flag/", {"name":"has-flag","reference":"3.0.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-has-flag-4.0.0-944771fd9c81c81265c4d6941860da06bb59479b-integrity/node_modules/has-flag/", {"name":"has-flag","reference":"4.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-normalize-path-3.0.0-0dcd69ff23a1c9b11fd0978316644a0388216a65-integrity/node_modules/normalize-path/", {"name":"normalize-path","reference":"3.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-normalize-path-2.1.1-1ab28b556e198363a8c1a6f7e6fa20137fe6aed9-integrity/node_modules/normalize-path/", {"name":"normalize-path","reference":"2.1.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-postcss-modules-extract-imports-2.0.0-818719a1ae1da325f9832446b01136eeb493cd7e-integrity/node_modules/postcss-modules-extract-imports/", {"name":"postcss-modules-extract-imports","reference":"2.0.0"}],
@@ -6299,8 +6328,6 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-punycode-1.3.2-9653a036fb7c1ee42342f2325cceefea3926c48d-integrity/node_modules/punycode/", {"name":"punycode","reference":"1.3.2"}],
   ["./.pnp/externals/pnp-a7ff729fcdd946148bad49db2d496ac7b1f7576c/node_modules/ajv-keywords/", {"name":"ajv-keywords","reference":"pnp:a7ff729fcdd946148bad49db2d496ac7b1f7576c"}],
   ["./.pnp/externals/pnp-98617499d4d50a8cd551a218fe8b73ef64f99afe/node_modules/ajv-keywords/", {"name":"ajv-keywords","reference":"pnp:98617499d4d50a8cd551a218fe8b73ef64f99afe"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-semver-6.3.0-ee0a64c8af5e8ceea67687b133761e1becbd1d3d-integrity/node_modules/semver/", {"name":"semver","reference":"6.3.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-semver-5.7.1-a954f931aeba508d307bbf069eff0c01c96116f7-integrity/node_modules/semver/", {"name":"semver","reference":"5.7.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-css-modules-typescript-loader-4.0.0-17c0924107f45c7d9998fb59be5c59d6398aac5c-integrity/node_modules/css-modules-typescript-loader/", {"name":"css-modules-typescript-loader","reference":"4.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-line-diff-2.1.0-4c407100471b4ebe1617bf37e877554a67abaa08-integrity/node_modules/line-diff/", {"name":"line-diff","reference":"2.1.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-levdist-1.0.0-91d7a3044964f2ccc421a0477cac827fe75c5718-integrity/node_modules/levdist/", {"name":"levdist","reference":"1.0.0"}],
@@ -6415,7 +6442,6 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-extsprintf-1.4.0-e2689f8f356fad62cca65a3a91c5df5f9551692f-integrity/node_modules/extsprintf/", {"name":"extsprintf","reference":"1.4.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-json-schema-0.2.3-b480c892e59a2f05954ce727bd3f2a4e882f9e13-integrity/node_modules/json-schema/", {"name":"json-schema","reference":"0.2.3"}],
   ["../../../../Library/Caches/Yarn/v6/npm-verror-1.10.0-3a105ca17053af55d6e270c1f8288682e18da400-integrity/node_modules/verror/", {"name":"verror","reference":"1.10.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-core-util-is-1.0.2-b5fd54220aa2bc5ab57aab7140c940754503c1a7-integrity/node_modules/core-util-is/", {"name":"core-util-is","reference":"1.0.2"}],
   ["../../../../Library/Caches/Yarn/v6/npm-sshpk-1.16.1-fb661c0bef29b39db40769ee39fa70093d6f6877-integrity/node_modules/sshpk/", {"name":"sshpk","reference":"1.16.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-asn1-0.2.4-8d2475dfab553bb33e77b54e59e880bb8ce23136-integrity/node_modules/asn1/", {"name":"asn1","reference":"0.2.4"}],
   ["../../../../Library/Caches/Yarn/v6/npm-safer-buffer-2.1.2-44fa161b0187b9549dd84bb91802f9bd8385cd6a-integrity/node_modules/safer-buffer/", {"name":"safer-buffer","reference":"2.1.2"}],
@@ -6556,13 +6582,6 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-source-list-map-2.0.1-3993bd873bfc48479cca9ea3a547835c7c154b34-integrity/node_modules/source-list-map/", {"name":"source-list-map","reference":"2.0.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-watchpack-2.0.0-beta.12-bed6878b020c8f43f5b88b7031dfb2b2092755f5-integrity/node_modules/watchpack/", {"name":"watchpack","reference":"2.0.0-beta.12"}],
   ["../../../../Library/Caches/Yarn/v6/npm-webpack-cli-3.3.11-3bf21889bf597b5d82c38f215135a411edfdc631-integrity/node_modules/webpack-cli/", {"name":"webpack-cli","reference":"3.3.11"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-cross-spawn-6.0.5-4a5ec7c64dfae22c3a14124dbacdee846d80cbc4-integrity/node_modules/cross-spawn/", {"name":"cross-spawn","reference":"6.0.5"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-nice-try-1.0.5-a3378a7696ce7d223e88fc9b764bd7ef1089e366-integrity/node_modules/nice-try/", {"name":"nice-try","reference":"1.0.5"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-path-key-2.0.1-411cadb574c5a140d3a4b1910d40d80cc9f40b40-integrity/node_modules/path-key/", {"name":"path-key","reference":"2.0.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-shebang-command-1.2.0-44aac65b695b03398968c39f363fee5deafdf1ea-integrity/node_modules/shebang-command/", {"name":"shebang-command","reference":"1.2.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-shebang-regex-1.0.0-da42f49740c0b42db2ca9728571cb190c98efea3-integrity/node_modules/shebang-regex/", {"name":"shebang-regex","reference":"1.0.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-which-1.3.1-a45043d54f5805316da8d62f9f50918d3da70b0a-integrity/node_modules/which/", {"name":"which","reference":"1.3.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-isexe-2.0.0-e8fbf374dc556ff8947a10dcb0572d633f2cfa10-integrity/node_modules/isexe/", {"name":"isexe","reference":"2.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-findup-sync-3.0.0-17b108f9ee512dfb7a5c7f3c8b27ea9e1a9c08d1-integrity/node_modules/findup-sync/", {"name":"findup-sync","reference":"3.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-detect-file-1.0.0-f0d66d03672a825cb1b73bdb3fe62310c8e552b7-integrity/node_modules/detect-file/", {"name":"detect-file","reference":"1.0.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-is-glob-4.0.1-7567dbe9f2f5e2467bc77ab83c4a29482407a5dc-integrity/node_modules/is-glob/", {"name":"is-glob","reference":"4.0.1"}],
@@ -6580,7 +6599,6 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-kind-of-5.1.0-729c91e2d857b7a419a1f9aa65685c4c33f5845d-integrity/node_modules/kind-of/", {"name":"kind-of","reference":"5.1.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-kind-of-6.0.3-07c05034a6c349fa06e24fa35aa76db4580ce4dd-integrity/node_modules/kind-of/", {"name":"kind-of","reference":"6.0.3"}],
   ["../../../../Library/Caches/Yarn/v6/npm-is-buffer-1.1.6-efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be-integrity/node_modules/is-buffer/", {"name":"is-buffer","reference":"1.1.6"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-repeat-string-1.6.1-8dcae470e1c88abc2d600fff4a776286da75e637-integrity/node_modules/repeat-string/", {"name":"repeat-string","reference":"1.6.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-isobject-3.0.1-4e431e92b11a9731636aa1f9c8d1ccbcfdab78df-integrity/node_modules/isobject/", {"name":"isobject","reference":"3.0.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-isobject-2.1.0-f065561096a3f1da2ef46272f815c840d87e0c89-integrity/node_modules/isobject/", {"name":"isobject","reference":"2.1.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-repeat-element-1.1.3-782e0d825c0c5a3bb39731f84efee6b742e6b1ce-integrity/node_modules/repeat-element/", {"name":"repeat-element","reference":"1.1.3"}],
@@ -6845,15 +6863,7 @@ let locatorsByLocations = new Map([
   ["../../../../Library/Caches/Yarn/v6/npm-async-limiter-1.0.1-dd379e94f0db8310b08291f9d64c3209766617fd-integrity/node_modules/async-limiter/", {"name":"async-limiter","reference":"1.0.1"}],
   ["../../../../Library/Caches/Yarn/v6/npm-code-point-at-1.1.0-0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77-integrity/node_modules/code-point-at/", {"name":"code-point-at","reference":"1.1.0"}],
   ["../../../../Library/Caches/Yarn/v6/npm-number-is-nan-1.0.1-097b602b53422a522c1afb8790318336941a011d-integrity/node_modules/number-is-nan/", {"name":"number-is-nan","reference":"1.0.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-pnpify-2.0.0-rc.20-4e03b226288dd09026535919eb41d68e6693012c-integrity/node_modules/@yarnpkg/pnpify/", {"name":"@yarnpkg/pnpify","reference":"2.0.0-rc.20"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-fslib-2.0.0-rc.17-480b73808d284bdd39054dad77814e1a60daaad3-integrity/node_modules/@yarnpkg/fslib/", {"name":"@yarnpkg/fslib","reference":"2.0.0-rc.17"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-@yarnpkg-libzip-2.0.0-rc.10-425926ff5d03b79b74dc3010bbd402444cbabf6a-integrity/node_modules/@yarnpkg/libzip/", {"name":"@yarnpkg/libzip","reference":"2.0.0-rc.10"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-@types-emscripten-1.39.3-cac2f24b4739c344c42f928a4c1af1aab245364e-integrity/node_modules/@types/emscripten/", {"name":"@types/emscripten","reference":"1.39.3"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-@types-color-name-1.1.1-1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0-integrity/node_modules/@types/color-name/", {"name":"@types/color-name","reference":"1.1.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-comment-json-2.4.2-2111c065864338ad8d98ae01eecde9e02cd2f549-integrity/node_modules/comment-json/", {"name":"comment-json","reference":"2.4.2"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-esprima-4.0.1-13b04cdb3e6c5d19df91ab6987a8695619b0aa71-integrity/node_modules/esprima/", {"name":"esprima","reference":"4.0.1"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-has-own-prop-2.0.0-f0f95d58f65804f5d218db32563bb85b8e0417af-integrity/node_modules/has-own-prop/", {"name":"has-own-prop","reference":"2.0.0"}],
-  ["../../../../Library/Caches/Yarn/v6/npm-@types-lodash-4.14.149-1342d63d948c6062838fbf961012f74d4e638440-integrity/node_modules/@types/lodash/", {"name":"@types/lodash","reference":"4.14.149"}],
+  ["../../../../Library/Caches/Yarn/v6/npm-rambda-5.1.0-bb8d37f4ad48eb420edf937f21beb18a18f65b2a-integrity/node_modules/rambda/", {"name":"rambda","reference":"5.1.0"}],
   ["./", topLevelLocator],
 ]);
 exports.findPackageLocator = function findPackageLocator(location) {
